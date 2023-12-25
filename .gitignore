@@ -2,3 +2,63 @@
 target
 *.classpath
 *.project
+
+# Maven
+target/
+mvnw
+mvnw.cmd
+log/
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Spring Boot
+spring-boot-starter-*/target/
+spring-boot-starter-*/build/
+
+# Application properties
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# Compiled bytecode
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Local configuration file (application-local.properties)
+src/main/resources/application-local.properties
+
+# Logs
+logs/
+*.log
+
+# Caches and lock files
+.caches/
+.lock/
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Gradle
+.gradle/
+build/
+
+# Node
+node_modules/
+
+# VS Code
+.vscode/
+
+
